@@ -5,7 +5,7 @@ import './index.css';
 // this square function component renders a single square or button.
 // returns the value of the prop when clicked (prop.value).
 function Square(props) {
-      return (
+      return ( 
         // adds an onClick listener function to each button as onClick prop
         // When the square is clicked the onClick function from the Board is invoked 
         // Each square onClick prop is now specified by the board
